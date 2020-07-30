@@ -1,0 +1,38 @@
+<div>
+<h1>{{myName}}</h1>
+  
+<img src="https://wallpaperplay.com/walls/full/f/1/a/31817.jpg" width="100%" height="400px">
+
+
+</div>
+
+
+<div>
+
+<form onsubmit="return false">
+<h2>title</h2>
+  <div>
+
+  <input id='blogTitle'>
+
+  </div>
+
+  <div>
+
+      <h2>Content</h2>
+    
+      <div>
+    
+      <input id='content'>
+      
+    </div>
+      <button (click)='onPress()'> click me to finish content: </button>
+    </div>      
+    </form>
+    <h2 id='titleblog'></h2>
+    <div id='contentBlog'></div>
+</div>
+
+
+
+<router-outlet></router-outlet>
